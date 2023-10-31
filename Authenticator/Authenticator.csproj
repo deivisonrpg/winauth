@@ -139,7 +139,6 @@
     <Compile Include="GuildWarsAuthenticator.cs" />
     <Compile Include="MicrosoftAuthenticator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="YubiKey.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Properties\Resources.resx">
