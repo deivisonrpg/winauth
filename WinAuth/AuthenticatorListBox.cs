@@ -1042,10 +1042,10 @@ namespace WinAuth
             menuitem.Click += ContextMenu_Click;
             this.ContextMenuStrip.Items.Add(menuitem);
             //
-            /*menuitem = new ToolStripMenuItem(strings.ShowSecretKey + "...");
+            menuitem = new ToolStripMenuItem(strings.ShowSecretKey + "...");
 			menuitem.Name = "showGoogleSecretMenuItem";
 			menuitem.Click += ContextMenu_Click;
-			this.ContextMenuStrip.Items.Add(menuitem);*/
+			this.ContextMenuStrip.Items.Add(menuitem);
             //
             /*menuitem = new ToolStripMenuItem(strings.ShowSerialKeyAndDeviceId + "...");
 			menuitem.Name = "showTrionSecretMenuItem";
@@ -1195,8 +1195,8 @@ namespace WinAuth
             menuitem = menu.Items.Cast<ToolStripItem>().Where(i => i.Name == "showRestoreCodeMenuItem").FirstOrDefault() as ToolStripMenuItem;
             menuitem.Visible = (auth.AuthenticatorData is BattleNetAuthenticator);
             //
-            //menuitem = menu.Items.Cast<ToolStripItem>().Where(i => i.Name == "showGoogleSecretMenuItem").FirstOrDefault() as ToolStripMenuItem;
-            //menuitem.Visible = (auth.AuthenticatorData is GoogleAuthenticator || auth.AuthenticatorData is HOTPAuthenticator);
+            menuitem = menu.Items.Cast<ToolStripItem>().Where(i => i.Name == "showGoogleSecretMenuItem").FirstOrDefault() as ToolStripMenuItem;
+            menuitem.Visible = (auth.AuthenticatorData is GoogleAuthenticator || auth.AuthenticatorData is HOTPAuthenticator);
             //
             //menuitem = menu.Items.Cast<ToolStripItem>().Where(i => i.Name == "showTrionSecretMenuItem").FirstOrDefault() as ToolStripMenuItem;
             //menuitem.Visible = (auth.AuthenticatorData is TrionAuthenticator);

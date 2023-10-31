@@ -93,7 +93,7 @@
             // addAuthenticatorMenu
             // 
             this.addAuthenticatorMenu.Name = "addMenu";
-            this.addAuthenticatorMenu.Size = new System.Drawing.Size(181, 26);
+            this.addAuthenticatorMenu.Size = new System.Drawing.Size(61, 4);
             this.addAuthenticatorMenu.Opening += new System.ComponentModel.CancelEventHandler(this.addAuthenticatorMenu_Opening);
             // 
             // optionsMenu
@@ -364,7 +364,7 @@
             this.Resizable = false;
             this.ShadowType = MetroFramework.Forms.MetroFormShadowType.None;
             this.StyleManager = this.metroStyleManager;
-            this.Text = "WinAuth";
+            this.Text = "GRPAuth";
             this.TopMost = true;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.WinAuthForm_FormClosing);
             this.Load += new System.EventHandler(this.WinAuthForm_Load);

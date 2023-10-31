@@ -1178,7 +1178,7 @@ namespace WinAuth.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Show Secret Key.
+        ///   Looks up a localized string similar to Mostrar Chave Secreta.
         /// </summary>
         internal static string ShowSecretKey {
             get {
