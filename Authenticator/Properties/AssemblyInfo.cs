@@ -9,7 +9,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyDescription("Authenticator implementation")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyProduct("WinAuth")]
-[assembly: AssemblyCopyright("Copyright © 2016. Colin Mackie. All rights reserved.")]
+[assembly: AssemblyCopyright("Copyright ï¿½ 2016. Colin Mackie. All rights reserved.")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -31,5 +31,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("3.6.1.0")]
+[assembly: AssemblyVersion("3.6.1.23304")]
 [assembly: AssemblyFileVersion("3.6.1.0")]

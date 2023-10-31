@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
@@ -39,7 +39,7 @@ using System.Security;
 [assembly: AssemblyVersion(MetroFrameworkAssembly.Version)]
 [assembly: AssemblyFileVersion(MetroFrameworkAssembly.Version)]
 
-[assembly:AllowPartiallyTrustedCallers]
+[assembly: AllowPartiallyTrustedCallers]
 
 [assembly: InternalsVisibleTo(MetroFramework.AssemblyRef.MetroFrameworkDesignIVT)]
 [assembly: InternalsVisibleTo(MetroFramework.AssemblyRef.MetroFrameworkFontsIVT)]
@@ -63,10 +63,10 @@ namespace MetroFramework
 
         public const string MetroFrameworkDesign_ = "MetroFramework.Design";
 
-				public const string MetroFrameworkDesignSN = "MetroFramework.Design, Version=" + MetroFrameworkAssembly.Version
-                                                       + ", Culture=neutral, PublicKeyToken=" + MetroFrameworkKeyToken;
+        public const string MetroFrameworkDesignSN = "MetroFramework.Design, Version=" + MetroFrameworkAssembly.Version
+                                               + ", Culture=neutral, PublicKeyToken=" + MetroFrameworkKeyToken;
 
-				public const string MetroFrameworkDesignIVT = "MetroFramework.Design, PublicKey=" + MetroFrameworkKeyFull;
+        public const string MetroFrameworkDesignIVT = "MetroFramework.Design, PublicKey=" + MetroFrameworkKeyFull;
 
         // Fonts
 
@@ -93,3 +93,4 @@ namespace MetroFramework
         internal const string MetroFrameworkKeyToken = "5f91a84759bf584a";
     }
 }
+//[assembly: AssemblyVersion("0.0.0.23304")]

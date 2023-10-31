@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
@@ -49,3 +49,5 @@ internal static class MetroFrameworkDesignAssembly
     internal const string Company = MetroFrameworkAssembly.Company;
     internal const string Product = MetroFrameworkAssembly.Product;
 }
+
+//[assembly: AssemblyVersion("0.0.0.23304")]

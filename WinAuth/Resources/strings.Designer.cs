@@ -19,7 +19,7 @@ namespace WinAuth.Resources {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class strings {
@@ -111,7 +111,7 @@ namespace WinAuth.Resources {
         ///
         ///NCsoft, the interlocking NC logo, ArenaNet, Guild Wars, Guild Wars Factions, Guild Wars Nightfall, Guild Wars: Eye of the North, Guild Wars 2, and all associated logos and designs are trademarks or registered trademarks of NCsoft Corporation.
         ///
-        ///Valve, the Valve logo, Half-Life, the Half-Life logo, the Lambda logo, Steam, the Steam lo [rest of string was truncated]&quot;;.
+        ///Valve, the Valve logo, Half-Life, the Half-Life logo, the Lambda logo, Steam, the Steam logo,  [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string _AboutForm_trademarkLabel_ {
             get {
@@ -252,7 +252,7 @@ namespace WinAuth.Resources {
         ///
         ///Some diagnostic information has been recorded and saved that might help track down issues in WinAuth.
         ///
-        ///It would help if you can submit this information so we can investigate the crash and try and fix the issue. This information does include information about your authenticators but is only used by the WinAuth developers solely for the purpose of investigating bugs and error reports. It does not include any personal or identifying information. Any information sent [rest of string was truncated]&quot;;.
+        ///It would help if you can submit this information so we can investigate the crash and try and fix the issue. This information does include information about your authenticators but is only used by the WinAuth developers solely for the purpose of investigating bugs and error reports. It does not include any personal or identifying information. Any information sent has b [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string _ExceptionForm_errorLabel_ {
             get {
@@ -261,7 +261,7 @@ namespace WinAuth.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Quit.
+        ///   Looks up a localized string similar to Fechar.
         /// </summary>
         internal static string _ExceptionForm_quitButton_ {
             get {
@@ -494,7 +494,7 @@ namespace WinAuth.Resources {
         ///&lt;li&gt;{COPY} to copy the code into the clipboard&lt;/li&gt;
         ///&lt;li&gt;{PASTE} to paste the clipboard contents into the active window&lt;/li&gt;
         ///&lt;li&gt;{EXIT} to exit WinAuth.&lt;/li&gt;&lt;/ul&gt;
-        ///&lt;p&gt;For example,  [rest of string was truncated]&quot;;.
+        ///&lt;p&gt;For example, to login [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string _SetShortcutKeyForm_advancedTextbox_tooltip {
             get {
@@ -602,7 +602,7 @@ namespace WinAuth.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Add.
+        ///   Looks up a localized string similar to Adicionar.
         /// </summary>
         internal static string _WinAuthForm_addAuthenticatorButton_ {
             get {
@@ -745,7 +745,7 @@ namespace WinAuth.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Copy Code.
+        ///   Looks up a localized string similar to Copiar Código.
         /// </summary>
         internal static string CopyCode {
             get {
@@ -799,7 +799,7 @@ namespace WinAuth.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Delete.
+        ///   Looks up a localized string similar to Excluir.
         /// </summary>
         internal static string Delete {
             get {
@@ -808,9 +808,9 @@ namespace WinAuth.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Are you sure you want to delete this authenticator?
+        ///   Looks up a localized string similar to Tem certeza de que deseja excluir este autenticador?
         ///
-        ///This will permanently remove it and you may no longer be able to access you account..
+        /// Isso o removerá permanentemente e talvez você não consiga mais acessar sua conta..
         /// </summary>
         internal static string DeleteAuthenticatorWarning {
             get {
@@ -996,7 +996,7 @@ namespace WinAuth.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Exit.
+        ///   Looks up a localized string similar to Sair.
         /// </summary>
         internal static string MenuExit {
             get {
@@ -1014,7 +1014,7 @@ namespace WinAuth.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Import....
+        ///   Looks up a localized string similar to Importar....
         /// </summary>
         internal static string MenuImportText {
             get {
@@ -1133,7 +1133,7 @@ namespace WinAuth.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Rename.
+        ///   Looks up a localized string similar to Renomear.
         /// </summary>
         internal static string Rename {
             get {
@@ -1205,7 +1205,7 @@ namespace WinAuth.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Sync Time.
+        ///   Looks up a localized string similar to Sincronizar Hora.
         /// </summary>
         internal static string SyncTime {
             get {
